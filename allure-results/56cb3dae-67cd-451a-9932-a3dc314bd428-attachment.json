@@ -1,0 +1,11 @@
+{
+    "url": "POST https://reqres.in/api/users",
+    "headers": {
+        "Authorization": "Basic 123",
+        "Content-Type": "application/json"
+    },
+    "body": {
+        "name": "Roman",
+        "job": "QA"
+    }
+}

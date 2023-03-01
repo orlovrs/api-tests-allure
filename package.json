@@ -1,0 +1,36 @@
+{
+  "name": "api-tests-engine",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0",
+    "@types/axios": "^0.14.0",
+    "@types/chai": "^4.3.4",
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^10.0.1",
+    "allure-mocha": "^2.0.0",
+    "axios": "^1.3.4",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mocha-tags": "^1.0.1",
+    "mocha-typescript": "^1.1.17",
+    "source-map-support": "^0.5.21",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "clear:report": "rimraf ./allure-report",
+    "clear:results": "rimraf ./allure-results",
+    "pretest": "npm run clear:report && npm run clear:results && tsc",
+    "test": "mocha -R allure-mocha",
+    "test:success": "mocha -R allure-mocha --tags \"not:failed\"",
+    "allure": "allure generate --clean && node ./node_modules/allure-single-html-file-js/combine.js ./allure-report"
+  },
+  "dependencies": {
+    "@types/allure-js-commons": "^0.0.1",
+    "allure-single-html-file-js": "^0.0.4",
+    "rimraf": "^4.1.2",
+    "ts-node": "^10.9.1"
+  }
+}

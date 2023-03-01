@@ -1,0 +1,20 @@
+{
+    "status": "404 Not Found",
+    "headers": {
+        "date": "Wed, 01 Mar 2023 12:55:34 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "2",
+        "connection": "close",
+        "x-powered-by": "Express",
+        "access-control-allow-origin": "*",
+        "etag": "W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\"",
+        "via": "1.1 vegur",
+        "cf-cache-status": "BYPASS",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=F%2FvIwzmKc5syoNHGC7sniNXyJ309SKHztcB0TTPHLAmB%2BlExygGLexS2SK%2Fb3qU7AkeHYdIuUxv4M1UfJK8YAVFxw3ecsVwohVpg99P%2FytwAbCsbPnLkLHJ2%2FoOWOlLM8zKlfF7jBA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "vary": "Accept-Encoding",
+        "server": "cloudflare",
+        "cf-ray": "7a118e181c9e34af-WAW"
+    },
+    "body": {}
+}

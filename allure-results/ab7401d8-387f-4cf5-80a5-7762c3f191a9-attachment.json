@@ -1,0 +1,7 @@
+{
+    "url": "GET https://reqres.in/api/users/23",
+    "headers": {
+        "Authorization": "Basic 123",
+        "Content-Type": "application/json"
+    }
+}
