@@ -25,6 +25,12 @@ it("Every retail account has invalid account type", () => __awaiter(void 0, void
 it("Every retail account has no invalid account type", () => __awaiter(void 0, void 0, void 0, function* () {
     yield api.es2.users.get(2).withOkResponse();
 }));
-tags('failed').it("Failed test", () => __awaiter(void 0, void 0, void 0, function* () {
-    yield api.es2.users.get(23).withOkResponse();
-}));
+tags('failed').it("Failed test", function () {
+    return __awaiter(this, void 0, void 0, function* () {
+        // @ts-ignore
+        this.test.xrayTestCase = '@mantis-xxxx'; // Setting up the scenario
+        // @ts-ignore
+        console.log(this.test.xrayTestCase);
+        yield api.es2.users.get(23).withOkResponse();
+    });
+});
