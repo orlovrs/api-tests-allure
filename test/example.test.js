@@ -27,10 +27,9 @@ it("Every retail account has no invalid account type", () => __awaiter(void 0, v
 }));
 tags('failed').it("Failed test", function () {
     return __awaiter(this, void 0, void 0, function* () {
+        runtime_1.allure.tag("@mantis-1234");
         // @ts-ignore
         this.test.xrayTestCase = '@mantis-xxxx'; // Setting up the scenario
-        // @ts-ignore
-        console.log(this.test.xrayTestCase);
         yield api.es2.users.get(23).withOkResponse();
     });
 });

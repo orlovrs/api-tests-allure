@@ -1,0 +1,24 @@
+{
+    "status": "201 Created",
+    "headers": {
+        "date": "Wed, 01 Mar 2023 13:35:44 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "77",
+        "connection": "close",
+        "x-powered-by": "Express",
+        "access-control-allow-origin": "*",
+        "etag": "W/\"4d-pp0K/NHiOJNR9V2qen7FRxV5kQU\"",
+        "via": "1.1 vegur",
+        "cf-cache-status": "DYNAMIC",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=RW65sjOWtFnUt0oR49fl1L%2BzRT%2B5dKwXXsfek%2BoM3fE2qr3QLqhjHImLaIZ8FGGe865MZrc%2F13kDIL7sPx%2BPxpDE%2BXSsm8IxRX%2FBL4Tou8prMIeoyMoYRV3EPshT27I3%2BYmHn8RiYQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "server": "cloudflare",
+        "cf-ray": "7a11c8ec8fef34d6-WAW"
+    },
+    "body": {
+        "name": "Roman",
+        "job": "QA",
+        "id": "629",
+        "createdAt": "2023-03-01T13:35:44.144Z"
+    }
+}

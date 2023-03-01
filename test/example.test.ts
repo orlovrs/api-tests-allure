@@ -19,6 +19,7 @@ it("Every retail account has no invalid account type", async () => {
     await api.es2.users.get(2).withOkResponse();
 });
 tags('failed').it("Failed test", async function() {
+    allure.tag("@mantis-1234");
     // @ts-ignore
     this.test.xrayTestCase = '@mantis-xxxx'; // Setting up the scenario
     await api.es2.users.get(23).withOkResponse();
